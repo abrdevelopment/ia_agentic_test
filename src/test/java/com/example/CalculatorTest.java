@@ -8,7 +8,7 @@ class CalculatorTest {
     @Test
     void shouldAddTwoNumbers() {
         Calculator calc = new Calculator();
-        assertEquals(6, calc.add(2, 3)); //alterado de 5 para 6 para o código falhar, pois 2 + 3 = 5
+        assertEquals(5, calc.add(2, 3));
     }
 
     @Test
